@@ -1,0 +1,76 @@
+.main {
+  width: 100%;
+  margin: 15px 10px;
+  text-align: center;
+
+  .react-multi-carousel-list {
+    overflow: hidden;
+    padding: 0;
+  }
+
+  .react-multi-carousel-track {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    width: 450px; // Adjust the width to fit three items per slide
+
+    .imgg {
+      width: 100%;
+      margin-bottom: 10px;
+
+      img {
+        max-width: 450px;
+        height: auto;
+        border-radius: 5px;
+      }
+    }
+
+    .writtens {
+      text-align: center;
+      justify-content: center;
+      
+      span {
+        background-color: inherit;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .react-multi-carousel-item {
+    display: flex;
+    justify-content: center;
+  }
+
+  .react-multiple-carousel__arrow {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .react-multiple-carousel__arrow--left {
+    left: -25px;
+  }
+
+  .react-multiple-carousel__arrow--right {
+    right: -25px;
+  }
+}
